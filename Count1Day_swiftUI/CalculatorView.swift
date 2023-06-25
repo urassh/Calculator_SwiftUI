@@ -51,7 +51,6 @@ struct NumberButton: View {
             } else {
                 calculation.computeNumber  = number
             }
-            print("\(number)が押されました")
         }, label: {
             Text("\(number)")
                 .frame(width: 70, height: 70)
